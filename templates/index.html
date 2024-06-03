@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <main>
+            <h1 class="prompt">What do you want to eat?</h1>
+            <form action="/analyze" method="post" enctype="multipart/form-data">
+                <input type="file" name="image" accept="image/*" class="image-input" required>
+                <button type="submit" class="submit-button">Generate Recipe</button>
+            </form>
+        </main>
+    </div>
+</body>
+</html>
