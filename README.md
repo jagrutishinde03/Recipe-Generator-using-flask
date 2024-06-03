@@ -29,18 +29,7 @@ Before you begin, ensure you have met the following requirements:
    cd Recipe-Generator-using-flask
    ```
 
-2. **Set up a virtual environment:**
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
-
-3. **Install the required packages:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Set your API key:**
+2. **Set your API key:**
    Replace the placeholder `API_KEY` with your actual API key in the `app.py` file.
 
 ## Usage
@@ -74,7 +63,6 @@ recipe-generator/
 │   ├── index.html       # HTML template for the main page
 │
 ├── app.py               # Main Flask application file
-├── requirements.txt     # List of dependencies
 └── README.md            # This README file
 ```
 
